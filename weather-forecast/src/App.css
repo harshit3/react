@@ -1,0 +1,69 @@
+.App {
+  font-family: sans-serif;
+  width: 600px;
+  margin-left: 160px;
+  margin-top: 40px;
+}
+
+.weathercard{
+  display: inline-block;
+  border: 0.5px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  width: 90px;
+}
+
+.weathercardactive{
+  display: inline-block;
+  border: 0.5px solid rgb(247, 260, 243);
+  border-radius: 10px;
+  background-color: rgb(243, 243, 243);
+  width: 90px;
+}
+
+.footer{
+  height: 25px;
+  text-align: center;
+}
+
+.temperatures{
+  margin-top: 0px;
+}
+
+.heading{
+  height: 20px;
+  text-align: center;
+}
+
+.imagediv{
+  text-align: center;
+  height: 80px;
+}
+
+.image{
+  height: 70px;
+  width: 75px;
+}
+
+@media (max-width:600px){
+  .App {
+    margin-left: 60px;
+  }
+  
+  .weathercard .weathercardactive{
+    width: 70px;
+  }
+  
+  .weathercardactive{
+    width: 70px;
+  }
+  
+  .imagediv{
+    height: 50px;
+  }
+  
+  .image{
+    height: 40px;
+    width: 45px;
+  }  
+}
