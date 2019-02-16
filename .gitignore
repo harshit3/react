@@ -3,6 +3,8 @@
 # dependencies
 /socialcard/node_modules
 /weather-forecast/node_modules
+/daily-sales-portal/node_modules
+/hackernews/node_modules
 /.pnp
 .pnp.js
 
