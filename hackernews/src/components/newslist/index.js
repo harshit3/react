@@ -5,7 +5,8 @@ class NewsList extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      news: []
+      news: [],
+      openKey: ""
     };
   }
   componentDidMount() {
@@ -37,6 +38,20 @@ class NewsList extends Component {
     });
   }
 
+  handleClick = storyId => {
+    this.setState(state => {
+      if (state.openKey === storyId) {
+        return {
+          openKey: ""
+        };
+      } else {
+        return {
+          openKey: storyId
+        };
+      }
+    });
+  };
+
   render() {
     return (
       <div>
@@ -48,7 +63,12 @@ class NewsList extends Component {
               </a>
             </div>
             {this.props.news.map(story => (
-              <News key={story.id} story={story} />
+              <News
+                key={story.id}
+                story={story}
+                openKey={this.state.openKey}
+                handleClick={this.handleClick}
+              />
             ))}
           </div>
         ) : (

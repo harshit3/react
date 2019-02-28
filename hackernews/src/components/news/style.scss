@@ -6,6 +6,7 @@
   background-color: rgb(229, 230, 215);
   padding: 8px;
   border-bottom: 1px solid rgb(157, 157, 157);
+  cursor: pointer;
   &:last-child {
     border: 0;
   }
@@ -31,4 +32,24 @@ span {
   &:last-child {
     border-right: 0px;
   }
+}
+
+.news-content {
+  width: 100%;
+  text-align: start;
+  background-color: white;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.active {
+  transition: height 0.2s;
+  height: 80px;
+  padding: 10px;
+}
+
+.collapsed {
+  transition: height 0.2s;
+  height: 0px;
+  padding: 0px;
 }
