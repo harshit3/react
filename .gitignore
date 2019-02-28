@@ -5,6 +5,7 @@
 /weather-forecast/node_modules
 /daily-sales-portal/node_modules
 /hackernews/node_modules
+/componentDidUpdate/node_modules
 /.pnp
 .pnp.js
 
