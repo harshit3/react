@@ -37,7 +37,6 @@ class PostDetails extends Component {
         params: { postid }
       }
     } = this.props;
-    console.log("rerenders", prevProps.match.params.postid, postid);
     const prevPostId = prevProps.match.params.postid;
     if (prevPostId !== postid) {
       this.fetchPostData(postid);
@@ -45,7 +44,6 @@ class PostDetails extends Component {
   }
 
   render() {
-    console.log("rerend");
     return (
       <div className="App">
         <header className="App-header">
