@@ -6,6 +6,7 @@
 /daily-sales-portal/node_modules
 /hackernews/node_modules
 /componentDidUpdate/node_modules
+/react-task/node_modules
 /.pnp
 .pnp.js
 

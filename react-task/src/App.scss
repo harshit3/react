@@ -1,0 +1,16 @@
+:root{
+    color: grey;
+    background-color: rgb(243, 241, 241);
+}
+
+.user-table-header{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.input-container{
+    justify-self: right;
+}

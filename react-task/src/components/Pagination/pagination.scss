@@ -1,0 +1,43 @@
+.pagination-container{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 7fr 1fr 1fr;
+    grid-column-gap: 20px;
+    align-items: center;
+}
+
+.page-numbers-container{
+    display: grid;
+}
+
+.page-numbers-list{
+    list-style-type: none;
+}
+
+.rows-perpage-selector{
+    justify-self: right;
+}
+
+.options{
+    outline: none;
+    border: 0.5px solid rgb(202, 202, 202);    
+}
+
+.page-numbers{
+    display: inline;
+    font-size: 80%;
+    padding: 1%;
+    border: 1px solid rgb(202, 202, 202);
+    border-left: 0;
+    cursor: pointer;
+    &:hover{
+        font-size: 85%;
+    }
+    &:first-child{
+        border-left: 1px solid rgb(202, 202, 202);
+    }
+}
+
+.highlight{
+    background-color: rgb(128, 184, 209);
+}

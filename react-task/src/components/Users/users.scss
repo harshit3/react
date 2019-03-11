@@ -1,0 +1,17 @@
+.users-container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.row-container{
+    display: grid;
+    grid-template-columns: 1fr repeat(3, 3fr) 4fr;
+    border-bottom: 1px solid rgb(221, 220, 220);
+    align-items: center;
+    padding: 8px;
+}
+
+.heading{
+    color: black;
+    cursor: pointer;
+}
