@@ -17,6 +17,7 @@ const Card = props => {
         <div><strong>Description:</strong>{repo.description}</div>
         <div><strong>Forks Count:</strong>{repo.forks_count}</div>
         <div><strong>Open Issues Count:</strong>{repo.open_issues_count}</div>
+        <div><strong>Link to repository:</strong>{repo.url}</div>
       </div>
     </div>
   );
