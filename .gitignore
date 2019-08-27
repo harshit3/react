@@ -8,6 +8,7 @@
 /componentDidUpdate/node_modules
 /react-task/node_modules
 /manpower-task/node_modules
+/album-app/node_modules
 /.pnp
 .pnp.js
 

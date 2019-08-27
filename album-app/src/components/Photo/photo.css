@@ -1,0 +1,10 @@
+.photo-container {
+    width: 150px;
+    padding: 10px;
+    display: inline-block;
+}
+.title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
